@@ -1,0 +1,32 @@
+const Messages = {
+    SIGNUP_SUCCESS: 'SignUp Successfully',
+    EMAIL_ALREADY_EXISTS: 'Email already registered',
+    SERVER_ERROR: 'Something went wrong',
+    LOGIN_SUCCESS: 'Login successful',
+    INVALID_CREDENTIALS: 'Invalid email or password',
+    LOGOUT_SUCCESS: 'Logout successful',
+    PASSWORD_UPDATED: 'Password updated successfully',
+    PASSWORD_RESET_SUCCESS: 'Password reset successfully',
+    PASSWORD_RESET_FAILED: 'Password reset failed',
+    FORGOT_PASSWORD_EMAIL_SENT: 'Password reset email sent successfully',
+    FORGOT_PASSWORD_EMAIL_FAILED: 'Failed to send password reset email',
+    USER_NOT_FOUND: 'User not found',
+    INVALID_TOKEN: 'Invalid or expired token',
+    UNAUTHORIZED: 'Unauthorized access',
+    FORBIDDEN: 'Forbidden access',
+    BAD_REQUEST: 'Bad request',
+    NOT_FOUND: 'Resource not found',
+    SERVER_ERROR: 'Internal server error',
+    ACCOUNT_LOCKED: 'Account is locked due to multiple failed login attempts',
+    ACCOUNT_NOT_VERIFIED: 'Account not verified. Please check your email for verification link',
+    EMAIL_VERIFICATION_SUCCESS: 'Email verification successful',
+    EMAIL_VERIFICATION_FAILED: 'Email verification failed',
+    EMAIL_SENT: 'Email sent successfully',
+    EMAIL_NOT_SENT: 'Failed to send email',
+    MISSMATCH_PASSWORDS: 'Passwords do not match',
+    OLD_PASSWORD_INCORRECT: 'Old password is incorrect',
+    SAME_PASSWORD: 'New password cannot be the same as the old password',
+    
+};
+
+module.exports = Messages;

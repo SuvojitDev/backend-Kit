@@ -1,0 +1,26 @@
+Github Pull Push
+
+- git init
+- git add .
+- git commit -m "commit message"
+- git branch -M main
+- git remote add origin https://github.com/username/reponame.git
+- git push -u origin main
+
+-----------------------------------------------------------------
+Anything New Update and Code Pull - Push
+
+- git checkout -b suvojitDEV
+- git add .
+- git commit -m "commited by Suvojit"
+- git checkout main
+- git merge suvojitDEV
+- git push origin main
+
+
+------------------------------------------------------------------
+Information
+
+- git branch < To check how many branch is present to this repo
+- git checkout suvojitDEV < move to that created branch
+- git status < check your working files

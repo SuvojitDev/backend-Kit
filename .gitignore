@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files (in case you build or compile later)
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Other files you don't want to track
+.env.local
+.env.*.local
+
+# ignore notes file from Git
+notes.txt
