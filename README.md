@@ -37,10 +37,10 @@ A secure authentication API built with Node.js, Express, and MongoDB featuring J
 | Endpoint                | Method | Description                     | Auth Required |
 |-------------------------|--------|---------------------------------|---------------|
 | `/api/users/create-user`      | POST   | Create user               | No            |
-| `/api/users/all-user`   | POST   | Get all user details                  | No            |
-| `/api/users/single-user/:id`       | POST   | Single user details      | No            |
-| `/api/users/update-user/:id` | POST | Update user details          | No            |
-| `/api/users/delete-user/:id` | POST | Delete user details          | No            |
+| `/api/users/all-user`   | GET   | Get all user details                  | No            |
+| `/api/users/single-user/:id`       | GET   | Single user details      | No            |
+| `/api/users/update-user/:id` | PUT | Update user details          | No            |
+| `/api/users/delete-user/:id` | Delete | Delete user details          | No            |
 
 ## Installation
 

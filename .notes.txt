@@ -17,6 +17,10 @@ Anything New Update and Code Pull - Push
 - git merge suvojitDEV
 - git push origin main
 
+------------------------------------------------------------------
+Need to update code and code push Second time to repo
+- git remote set-url origin https://github.com/SuvojitDev/backend-Kit.git
+- git push -u origin main
 
 ------------------------------------------------------------------
 Information
