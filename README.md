@@ -21,23 +21,33 @@ A secure authentication API built with Node.js, Express, and MongoDB featuring J
 - **Password Hashing**: bcryptjs
 - **Environment Variables**: dotenv
 
-## API Endpoints
+## Auth API Endpoints
 
 | Endpoint                | Method | Description                     | Auth Required |
 |-------------------------|--------|---------------------------------|---------------|
 | `/api/auth/signup`      | POST   | Register a new user             | No            |
 | `/api/auth/login`       | POST   | Login existing user             | No            |
 | `/api/auth/logout`      | POST   | Logout user                     | Yes           |
-| `/api/auth/update-password` | POST | Update user password           | Yes           |
+| `/api/auth/update-password` | POST | Update user password           | Yes          |
 | `/api/auth/forgot-password` | POST | Initiate password reset       | No            |
 | `/api/auth/reset-password` | POST  | Complete password reset       | No            |
+
+## User API Endpoints
+
+| Endpoint                | Method | Description                     | Auth Required |
+|-------------------------|--------|---------------------------------|---------------|
+| `/api/users/create-user`      | POST   | Create user               | No            |
+| `/api/users/all-user`   | POST   | Get all user details                  | No            |
+| `/api/users/single-user/:id`       | POST   | Single user details      | No            |
+| `/api/users/update-user/:id` | POST | Update user details          | No            |
+| `/api/users/delete-user/:id` | POST | Delete user details          | No            |
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/auth-api.git
-   cd auth-api
+   git clone https://github.com/yourusername/repo.git
+   cd repo
    
 2. Install dependencies:
     ```bash
@@ -52,6 +62,3 @@ A secure authentication API built with Node.js, Express, and MongoDB featuring J
     ```bash
     npm start
 5. The server will start on `http://localhost:5000`
-
----
-On Going............................
